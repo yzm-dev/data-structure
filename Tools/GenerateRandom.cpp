@@ -26,3 +26,6 @@ void ArrShow(int a[], int length) {
     }
     std::cout << std::endl;
 }
+
+
+
