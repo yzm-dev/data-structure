@@ -34,5 +34,4 @@
 
 # Clion exclude
 .idea
-CMakeLists.txt
 cmake-build-debug

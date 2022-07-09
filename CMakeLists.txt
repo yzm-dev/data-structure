@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.21)
+project(C_Project LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 11)
+
+
+add_executable(SqList 顺序表/SqList.cpp)
+add_executable(ListWithHead 单链表/ListWithHead.cpp)
+add_executable(ListNoHead 单链表/ListNoHead.cpp)
+add_executable(DoubleLinkList 双链表/DoubleLinkList.cpp)
+add_executable(SingleList 循环链表/SingleList.cpp)
+add_executable(DoubleList 循环链表/DoubleList.cpp)
+add_executable(SqStack 栈/SqStack.cpp)
+add_executable(LinkStack 栈/LinkStack.cpp)
+add_executable(SqQueue 队列/SqQueue.cpp)
+add_executable(LinkQueue 队列/LinkQueue.cpp)
+
+add_executable(GenerateRandom Tools/GenerateRandom.h Tools/GenerateRandom.cpp Tools/main.cpp)
+add_executable(BubbleSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/冒泡排序/BubbleSort.cpp)
+add_executable(SelectSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/选择排序/SelectSort.cpp)
+add_executable(ShellSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/希尔排序/ShellSort.cpp)
+add_executable(InsertSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/插入排序/InsertSort.cpp)
+add_executable(QuickSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/快速排序/QuickSort.cpp)
+add_executable(HeapSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/堆排序/HeapSort.cpp)
+add_executable(MergeSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/归并排序/MergeSort.cpp)
