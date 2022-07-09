@@ -33,5 +33,6 @@
 *.app
 
 # Clion exclude
+.DS_Store
 .idea
 cmake-build-debug
