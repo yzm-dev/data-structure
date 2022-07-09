@@ -23,3 +23,4 @@ add_executable(InsertSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序
 add_executable(QuickSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/快速排序/QuickSort.cpp)
 add_executable(HeapSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/堆排序/HeapSort.cpp)
 add_executable(MergeSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/归并排序/MergeSort.cpp)
+
