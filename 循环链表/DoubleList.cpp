@@ -21,7 +21,7 @@ bool InitDLinkList(DLinkList &L) {
     return true;
 }
 
-// 插入和删除方法与循环单链表类似，不再赘述
+// 插入和删除方法与循环单链表类似，偷个懒...
 
 // 判断循环双链表是否为空
 bool Empty(DLinkList L) {
