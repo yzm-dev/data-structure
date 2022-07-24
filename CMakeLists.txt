@@ -3,7 +3,6 @@ project(C_Project LANGUAGES C CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 
-
 add_executable(SqList 顺序表/SqList.cpp)
 add_executable(ListWithHead 单链表/ListWithHead.cpp)
 add_executable(ListNoHead 单链表/ListNoHead.cpp)
@@ -24,3 +23,6 @@ add_executable(QuickSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/
 add_executable(HeapSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/堆排序/HeapSort.cpp)
 add_executable(MergeSort Tools/GenerateRandom.h Tools/GenerateRandom.cpp 排序/归并排序/MergeSort.cpp)
 
+add_executable(BinaryTree 二叉树/BinaryTree.cpp)
+add_executable(NoRecurBTree 二叉树/NonRecurBTree.cpp)
+add_executable(Graph 图/Graph.cpp)
